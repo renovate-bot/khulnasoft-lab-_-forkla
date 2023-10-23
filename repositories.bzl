@@ -161,9 +161,9 @@ def forkla_repositories():
     maybe(
         http_archive,
         name = "JCommander",
-        sha256 = "e7ed3cf09f43d0d0a083f1b3243c6d1b45139a84a61c6356504f9b7aa14554fc",
+        sha256 = "f54f6c2fb67bb9efd2530a6a67279badd226d6f53c0f6aa360c5d23c596c12e8",
         urls = [
-            "https://github.com/cbeust/jcommander/archive/05254453c0a824f719bd72dac66fa686525752a5.zip",
+            "https://github.com/cbeust/jcommander/archive/d7ec08c66ee5569089161725f433c7e96ec9403b.zip",
         ],
         build_file = Label("//external/third_party:jcommander.BUILD"),
     )
