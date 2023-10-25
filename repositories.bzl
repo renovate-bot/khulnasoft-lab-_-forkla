@@ -115,9 +115,9 @@ def forkla_repositories():
     maybe(
         http_archive,
         name = "rules_python",
-        sha256 = "f7402f11691d657161f871e11968a984e5b48b023321935f5a55d7e56cf4758a",
-        strip_prefix = "rules_python-9d68f24659e8ce8b736590ba1e4418af06ec2552",
-        url = "https://github.com/bazelbuild/rules_python/archive/9d68f24659e8ce8b736590ba1e4418af06ec2552.zip",
+        sha256 = "71d3ae8f4a2577441b3f300f2f025a390ef964b9a68f32f9fe63f808f2bee9b8",
+        strip_prefix = "rules_python-5b082bb02b048a4b630843b6b582bd6f40d38b9e",
+        url = "https://github.com/bazelbuild/rules_python/archive/5b082bb02b048a4b630843b6b582bd6f40d38b9e.zip",
     )
 
     # LICENSE: The Apache Software License, Version 2.0
