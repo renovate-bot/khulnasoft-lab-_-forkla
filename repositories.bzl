@@ -75,11 +75,11 @@ def forkla_repositories():
         patches = ["@io_bazel//third_party/protobuf:21.7.patch"],
         patch_cmds = EXPORT_WORKSPACE_IN_BUILD_FILE,
         patch_cmds_win = EXPORT_WORKSPACE_IN_BUILD_FILE_WIN,
-        sha256 = "22fdaf641b31655d4b2297f9981fa5203b2866f8332d3c6333f6b0107bb320de",
-        strip_prefix = "protobuf-21.12",
+        sha256 = "7beed9c511d632cff7c22ac0094dd7720e550153039d5da7e059bcceb488474a",
+        strip_prefix = "protobuf-25.0",
         urls = [
-            "https://mirror.bazel.build/github.com/protocolbuffers/protobuf/archive/v21.12.tar.gz",
-            "https://github.com/protocolbuffers/protobuf/archive/v21.12.tar.gz",
+            "https://mirror.bazel.build/github.com/protocolbuffers/protobuf/archive/v25.0.tar.gz",
+            "https://github.com/protocolbuffers/protobuf/archive/v25.0.tar.gz",
         ],
     )
 
