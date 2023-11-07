@@ -141,9 +141,9 @@ def forkla_repositories():
     maybe(
         http_archive,
         name = "rules_proto",
-        sha256 = "02b8525594bf48c8b3dba8c7427a494605bdcc1bb4a8411e14e7941a7fc4fbd6",
-        strip_prefix = "rules_proto-4e32e70a700dac5b41e05ed6e9429e49ebb1a4ee",
-        url = "https://github.com/bazelbuild/rules_proto/archive/4e32e70a700dac5b41e05ed6e9429e49ebb1a4ee.zip",
+        sha256 = "fdee402598331f361628f5539d776c1ab5e2a2efbd46cd4172df4637a4d3b4ef",
+        strip_prefix = "rules_proto-7188888362a203892dec354f52623f9970bff48c",
+        url = "https://github.com/bazelbuild/rules_proto/archive/7188888362a203892dec354f52623f9970bff48c.zip",
     )
 
     # LICENSE: The Apache Software License, Version 2.0
