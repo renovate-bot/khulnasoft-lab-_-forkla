@@ -99,8 +99,8 @@ def forkla_repositories():
     maybe(
         http_archive,
         name = "rules_pkg",
-        sha256 = "8f9ee2dc10c1ae514ee599a8b42ed99fa262b757058f65ad3c384289ff70c4b8",
-        url = "https://github.com/bazelbuild/rules_pkg/releases/download/0.9.1/rules_pkg-0.9.1.tar.gz",
+        sha256 = "e93b7309591cabd68828a1bcddade1c158954d323be2205063e718763627682a",
+        url = "https://github.com/bazelbuild/rules_pkg/releases/download/0.10.0/rules_pkg-0.10.0.tar.gz",
     )
 
     # LICENSE: The Apache Software License, Version 2.0
